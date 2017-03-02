@@ -8,6 +8,7 @@ body,
 html {
     width: 100%;
     height: 100%;
+    background-color: #000000;
 }
 
 body,
@@ -31,11 +32,25 @@ h6 {
     color: #111111;
 }
 
+.main-body-top {
+  text-align: center;
+  background: url(../img/scroll-bg-top.jpg) no-repeat center center;
+  background-size: 1024;
+  background-color: #000000;
+  background-position: center top;
+}
+
 .main-body {
     text-align: center;
-    background: url(../img/setttings-bg-black.jpg) no-repeat center center;
+    background: url(../img/scroll-bg-mid.jpg) no-repeat center center;
     background-size: 1024;
     background-color: #000000;
+    background-position: center top;
+    background-repeat: repeat-y
+}
+
+.spacer {
+  margin-top: 40px;
 }
 
 .intro-header {
@@ -111,8 +126,6 @@ h6 {
 
 .content-section-b {
     padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
 }
 
 .section-heading {
