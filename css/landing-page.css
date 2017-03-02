@@ -43,7 +43,7 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 30%;
+    padding-top: 10%;
     padding-bottom: 30%;
 }
 
@@ -61,6 +61,8 @@ h6 {
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    padding-bottom: 20px;
+    color: #a1a1a1;
 }
 
 @media(max-width:767px) {
@@ -136,6 +138,10 @@ h6 {
 .banner-social-buttons {
     float: right;
     margin-top: 0;
+}
+
+.trailer {
+
 }
 
 @media(max-width:1199px) {
