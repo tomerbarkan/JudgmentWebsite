@@ -14,6 +14,9 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Plugin CSS -->
+    <link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
 
@@ -90,7 +93,8 @@
 
 <body>
 
-  <!-- Header -->
+<!-- Header -->
+<section id="header">
   <a name="about"></a>
   <div class="header">
     <div class="container">
@@ -110,11 +114,13 @@
       </div>
     </div>
   </div> <!-- /.header -->
+</section>
 
   <div class="row spacer"><div class="span"></div></div>
   <div class="row spacer"><div class="span"></div></div>
 
-  <!-- Page Content -->
+<!-- Trailer -->
+<section id="trailer">
   <div class="main-body-top">
     <a name="trailer"></a>
     <div class="content-section">
@@ -130,34 +136,84 @@
       </div>
     </div>
   </div>
+</section>
+<!-- /Trailer -->
+
 
   <div class="main-body">
-    <a  name="shortdesc"></a>
-    <div class="content-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-sm-offset-3 centered">
-            <p class="scroll-text" style="font-weight: normal; font-family: 'Architects Daughter'">Judgment: Apocalypse Survival Simulation is a colony simulation game with tactical combat that takes place in the midst of a demon apocalypse. The gates of hell have opened and unleashed relentless demons into the world -- but you can fight back! Guide a group of survivors through the mayhem -- hiding from hellspawn and building a sanctuary. Survive by gathering resources, crafting equipment, defending your base and sending teams to scavenge for supplies. Research human technologies and practice the dark arts to find a way and send the demons back to hell.</p>
+    <section id="shortdesc">
+      <a  name="shortdesc"></a>
+      <div class="content-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 centered">
+              <p class="scroll-text" style="font-weight: normal; font-family: 'Architects Daughter'">Judgment: Apocalypse Survival Simulation is a colony simulation game with tactical combat that takes place in the midst of a demon apocalypse. The gates of hell have opened and unleashed relentless demons into the world -- but you can fight back! Guide a group of survivors through the mayhem -- hiding from hellspawn and building a sanctuary. Survive by gathering resources, crafting equipment, defending your base and sending teams to scavenge for supplies. Research human technologies and practice the dark arts to find a way and send the demons back to hell.</p>
+            </div>
           </div>
         </div>
+        <!-- /.container -->
+
       </div>
-      <!-- /.container -->
+      <!-- /.content-section-a -->
+    </section>
 
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-sm-offset-3 centered">
-            <p class="scroll-text" style="font-weight: normal; font-family: 'Architects Daughter'">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
+    <section id="screenshots">
+        <div class="container">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-sm-4 col-sm-offset-2">
+                    <a href="img/screenshot-2016-10-02-working.jpg" class="portfolio-box">
+                        <img src="img/screenshot-2016-10-02-working.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Colony Work
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-sm-offset-0">
+                    <a href="img/screenshot-2016-10-02-defense.jpg" class="portfolio-box">
+                        <img src="img/screenshot-2016-10-02-defense.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Base Defense
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-sm-offset-2">
+                    <a href="img/screenshot-2017-02-10-urban-rescue.jpg" class="portfolio-box">
+                        <img src="img/screenshot-2017-02-10-urban-rescue.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Urban Rescue
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-sm-offset-0">
+                    <a href="img/screenshot-2016-10-02-crafting-priorities.jpg" class="portfolio-box">
+                        <img src="img/screenshot-2016-10-02-crafting-priorities.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Crafting
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
+    </section>
 
     <div class="content-section">
       <div class="container">
@@ -220,6 +276,10 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Landing Page -->
+    <script src="js/landing-page.js"></script>
 </body>
 
 </html>
