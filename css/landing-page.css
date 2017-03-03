@@ -57,18 +57,21 @@ h6 {
 .intro-header {
     text-align: center;
     color: #000000;
-    background: url(../img/promo-bg.jpg) no-repeat center center;
+    background: url(../img/header-bg.jpg) no-repeat center center;
     background-size: cover;
+    background-position: center top;
+    height: 903px;
 }
 
 .intro-header .img-responsive {
-  padding-top: 0%;
+  padding-top: 5%;
+  margin: 0 auto;;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 8%;
-    padding-bottom: 10%;
+    padding-top: 0%;
+    padding-bottom: 43%;
 }
 
 .intro-message > h1 {
@@ -85,8 +88,10 @@ h6 {
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    padding-bottom: 20px;
-    color: #a1a1a1;
+    color: #000000;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Architects Daughter';
 }
 
 @media(max-width:767px) {
