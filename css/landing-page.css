@@ -78,6 +78,12 @@ h6 {
   padding-bottom: 2%;
 }
 
+.features-center-cell {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+
 .spacer {
   margin-top: 40px;
 }
