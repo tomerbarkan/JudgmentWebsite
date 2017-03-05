@@ -37,22 +37,13 @@ h6 {
   margin: 0 auto;;
 }
 
-.main-body-top {
-  text-align: center;
-  background: url(../img/scroll-bg-top.jpg) no-repeat center center;
-  background-size: 1024;
-  background-color: #000000;
-  background-position: center top;
-  height: 609px;
-}
-
 .main-body {
     text-align: center;
-    background: url(../img/scroll-bg-mid.jpg) no-repeat center center;
-    background-size: 1024;
-    background-color: #000000;
-    background-position: center top;
-    background-repeat: repeat-y;
+    background-image: url(../img/scroll-bg-top.jpg), url(../img/scroll-bg-mid.jpg);
+    background-size: 1024, 1024;
+    background-color: #000000, #000000;
+    background-position: center top, 50% 609px;
+    background-repeat: no-repeat, repeat-y;
     padding-top: 5%;
 }
 
