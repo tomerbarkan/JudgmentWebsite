@@ -23,6 +23,41 @@ h6 {
   color: #000000;
 }
 
+.email-input {
+  border: 0px;
+  height:50px;
+  background: url(../img/input-bg.png) left bottom;
+  background-repeat: repeat-x;
+  color: #000000;
+  padding-left:4px;
+  font-size:20px;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.email-input::-moz-placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+.email-input:-ms-input-placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+.email-input::-webkit-input-placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+
+.email-div {
+  width: 100%;
+}
+
+.email-label {
+  font-size: 24px;
+  text-align: center;
+}
+
 .header {
     text-align: center;
     color: #000000;
