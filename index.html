@@ -384,20 +384,21 @@
 </script>
 
 <script>
-  $(function() {
+  $(window).load(function() {
     function resizeBody() {
       var height = $('#main-body').height();
       var topHeight = 609;
       var bodyImageHeight = 367;
       var repeatingHeight = height - topHeight;
 
-      var newRepeatingHeight = repeatingHeight + bodyImageHeight - (repeatingHeight % bodyImageHeight);
-      $('#main-body').height(topHeight + newRepeatingHeight);
+      if ((repeatingHeight % bodyImageHeight) > 0) {
+        var newRepeatingHeight = repeatingHeight + bodyImageHeight - (repeatingHeight % bodyImageHeight);
+        $('#main-body').height(topHeight + newRepeatingHeight);
+      }
 
       //alert("Orig: " + height + "\nTop:" + topHeight + "\nImgsize: " + bodyImageHeight + "\nRepeating Area: "  + repeatingHeight + "\nAdjusted Repeating: " + newRepeatingHeight + "\nFinal: " + (topHeight + newRepeatingHeight));
     }
 
-    $('main-body').resize(resizeBody);
     resizeBody();
   });
 </script>
