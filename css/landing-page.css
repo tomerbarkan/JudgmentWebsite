@@ -28,17 +28,6 @@ hr {
   border-color: #000;
 }
 
-footer {
-  background: url(../img/scroll-bg-bot.jpg) no-repeat center top;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: #fff;
-  text-align: center;
-  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-}
-
 .header {
     text-align: center;
     color: #000000;
@@ -55,7 +44,7 @@ footer {
 .intro-message {
     position: relative;
     padding-top: 0%;
-    padding-bottom: 40%;
+    padding-bottom: 36%;
 }
 
 .intro-message > h3 {
@@ -223,4 +212,18 @@ footer {
 }
 .portfolio-box:focus {
   outline: none;
+}
+
+footer {
+  background: url(../img/scroll-bg-bot.jpg) no-repeat center top;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+footer a {
+  color: #fff;
 }
