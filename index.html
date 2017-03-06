@@ -139,11 +139,9 @@
   </div> <!-- /.header -->
 </section>
 
-<div class="row spacer"><div class="span"></div></div>
-<div class="row spacer"><div class="span"></div></div>
+<div class="main-body" id="main-body">
 
-<div class="main-body">
-
+  <div class="trailer-separator"><div class="span"></div></div>
   <!-- Trailer -->
   <section id="trailer">
     <a name="trailer"></a>
@@ -383,6 +381,18 @@
 
   ga('create', 'UA-56314723-8', 'auto');
   ga('send', 'pageview');
+</script>
+
+<script>
+  var height = $('#main-body').height();
+  var topHeight = 609;
+  var bodyImageHeight = 367;
+  var repeatingHeight = height - topHeight;
+
+  var newRepeatingHeight = repeatingHeight + bodyImageHeight - (repeatingHeight % bodyImageHeight);
+  $('#main-body').height(topHeight + newRepeatingHeight);
+
+  //alert("Orig: " + height + "\nTop:" + topHeight + "\nImgsize: " + bodyImageHeight + "\nRepeating Area: "  + repeatingHeight + "\nAdjusted Repeating: " + newRepeatingHeight + "\nFinal: " + (topHeight + newRepeatingHeight));  
 </script>
 
 </body>
