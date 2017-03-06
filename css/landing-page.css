@@ -23,6 +23,11 @@ h6 {
   color: #000000;
 }
 
+hr {
+  width: 50%;
+  border-color: #000;
+}
+
 .header {
     text-align: center;
     color: #000000;
@@ -77,20 +82,27 @@ h6 {
   padding-top: 10px;
   padding-bottom: 20px;
   font-weight: normal;
+  font-size: 18px;
 }
 
 .features-icon {
-  max-height: 60px;
+  max-height: 80px;
   margin:auto;
 }
 
 .features-container {
-  padding-bottom: 2%;
+  padding-bottom: 0%;
 }
 
 .features-center-cell {
   margin-left: 12%;
   margin-right: 12%;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }
 
 .email-input {
