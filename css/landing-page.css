@@ -28,6 +28,12 @@ hr {
   border-color: #000;
 }
 
+footer {
+  background: url(../img/scroll-bg-bot.jpg) no-repeat center top;
+  padding-top: 50px;
+  color: #fff;
+}
+
 .header {
     text-align: center;
     color: #000000;
@@ -119,6 +125,7 @@ hr {
   padding-top: 10px;
   margin-left: 10%;
   margin-right: 10%;
+  outline: none;
 }
 
 .email-input::-moz-placeholder {
@@ -141,6 +148,20 @@ hr {
 .email-label {
   font-size: 24px;
   text-align: center;
+  margin-bottom: -15px;
+}
+
+.email-button {
+  background: url("../img/button-bg.png") center;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-size: cover;
+  border: 0px;
+  outline: none;
+  font-size: 20px;
 }
 
 .spacer {
