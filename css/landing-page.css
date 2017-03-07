@@ -53,6 +53,12 @@ hr {
   height: 35vh;
 }
 
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill {
+  transition-delay: 50000s;
+}
+
 @media (max-width: 767px) {
   .header .buy-section {
     padding-top: 45vh;
@@ -143,21 +149,26 @@ hr {
   float: none;
 }
 
-.email-input {
-  border: 0px;
+.email-background {
   height:50px;
   background: url(../img/input-bg.png) left bottom;
   background-repeat: no-repeat;
   background-size: 100%;
-  color: #000000;
-  padding-left:4px;
-  font-size:20px;
-  width: 80%;
   padding-left: 30px;
+  width: 80%;
   padding-top: 10px;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.email-input {
+  border: 0px;
+  height:50px;
+  width: 100%;
+  color: #000000;
+  font-size:20px;
   outline: none;
+  background: none;
 }
 
 .email-input::-moz-placeholder {
