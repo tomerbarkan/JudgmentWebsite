@@ -53,8 +53,29 @@ hr {
   height: 35vh;
 }
 
-.header .buy-section {
-  padding-top: 45vh;
+@media (max-width: 767px) {
+  .header .buy-section {
+    padding-top: 45vh;
+    width: 100%;
+  }
+
+  .header .buy-button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .header .header-second-half {
+    width: 100%;
+    height: 65vh;
+    position: relative;
+  }
+
+  .header .buy-section {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+  }
 }
 
 .intro-message {
