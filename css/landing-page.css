@@ -30,6 +30,10 @@ hr {
   height: 20px;
 }
 
+.support-separator {
+  height: 10px;
+}
+
 .header {
     text-align: center;
     color: #000000;
