@@ -4,6 +4,26 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+ .center-content {
+   display: flex;
+   justify-content: center;
+ }
+
+ .center-vcontent {
+   display: flex;
+   align-items: center;
+ }
+
+ .bottom-content {
+   display: flex;
+   align-items: flex-end;
+ }
+
+.spread-content {
+  display: flex;
+  justify-content: space-between;
+}
+
 body,
 html {
     width: 100%;
@@ -263,16 +283,23 @@ input:-webkit-autofill {
   outline: none;
 }
 
-footer {
+.footer {
   background: url(../img/scroll-bg-bot.jpg) no-repeat center top;
-  padding-top: 50px;
-  padding-bottom: 50px;
   text-align: center;
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 16px;
   font-weight: normal;
+  background-color: black;
+  padding: 40px 0px 20px 0px;
+  color: #fff;
 }
 
-footer a {
+.footer-social-icon {
+  height: 32px;
+  width: 32px;
+  margin: 15px;
+}
+
+.footer a {
   color: #fff;
 }
